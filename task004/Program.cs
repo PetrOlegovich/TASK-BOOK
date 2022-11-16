@@ -11,4 +11,4 @@ int digit2 = number%10;
 
 Console.Write(digit1);
 Console.Write(digit2);
-// Console.Write(digit1*10+digit2); на семинаре сделали так вот
+// Console.Write(digit1*10+digit2); на семинаре сделали так вот так
