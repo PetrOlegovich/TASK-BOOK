@@ -121,3 +121,45 @@
 
 
 // S2.10. Составить программу решения линейного уравнения ax+b=0 (a ≠ 0).
+
+
+// S2.12. Найти площадь кольца по заданным внешнему и внутреннему радиусам.
+
+// Console.WriteLine("Введите внешний радиус кольца : ");
+// double r1 = Convert.ToDouble(Console.ReadLine());
+// Console.WriteLine("Введите внутренний радиус кольца : ");
+// double r2 = Convert.ToDouble(Console.ReadLine());
+// double pi = 3.14;
+
+// double PloRing = Math.Round((pi * Math.Pow(r1, 2)) - (pi * Math.Pow(r2, 2)), 2);
+// Console.WriteLine($"Площадь кольца равна {PloRing}");
+
+// S2.13А. Даны два числа. Найти среднее арифметическое и среднее геометрическое их  модулей. 
+
+// Console.WriteLine("число 1  : ");
+// double n1 = Math.Abs(Convert.ToDouble(Console.ReadLine()));
+// Console.WriteLine("число 2  : ");
+// double n2 = Math.Abs(Convert.ToDouble(Console.ReadLine()));
+
+// double sredA = Math.Round((n1+n2)/2, 2);
+// double sredG = Math.Round(Math.Sqrt(n1*n2), 2);
+// Console.WriteLine($"Среднее арефметическое {n1} и {n2} = {sredA}");
+// Console.WriteLine($"Среднее геометрическое чисел {n1} и {n2} = {sredG}");
+
+
+// S2.13.  Даны катеты прямоугольного треугольника. Найти его периметр.
+
+// double kat1 = 10;
+// double kat2 = 20;
+// double gepa = Math.Round(Math.Sqrt(Math.Pow(kat1, 2) + Math.Pow(kat2, 2)), 2);
+// double Perimit = kat1+kat2+gepa;
+// Console.WriteLine(Perimit);
+ 
+
+//  S3.3. Дано вещественное число а. Пользуясь только операцией умножения, получить:
+// а) a4 за две операции;
+// б) a6  за три операции;
+// в) a7 за четыре операции;
+// г) a8  за три операции;
+// д) a9 за четыре операции;
+// е) a10  за четыре операции.
