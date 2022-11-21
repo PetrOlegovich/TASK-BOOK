@@ -31,6 +31,7 @@
 // double plosh = x*x , ob = x*x*x;
 // Console.WriteLine($"площадь стороны куба равен :{plosh} \nОбьем куба равна {ob}");
 
+
 //S2.6. Дан радиус окружности. Найти длину окружности и площадь круга.
 
 // Console.Write("Введите радиус : ");
@@ -43,16 +44,80 @@
 
 // S2.7. Даны два целых числа. Найти: а) их среднее арифметическое; б) их среднее геометрическое.
 
-
 // Console.Write("Введите первое число \n: ");
 // double num1 = Convert.ToDouble(Console.ReadLine());
 // Console.Write("Введите второе число \n: ");
 // double num2 = Convert.ToDouble(Console.ReadLine());
 // double sredA = (num1 + num2)/2;
 // double sredG = Math.Sqrt(num1*num2);
-
 // Console.WriteLine($"среднее арифметическое = {Math.Round(sredA, 3)} \n среднее геометрическое = {Math.Round(sredG, 3)}");
 
 
 
+//S2.8. Известны объем и масса тела. Определить плотность материала этого тела.
 
+// Console.Write("Введите массу \n: ");
+// double colM = Convert.ToDouble(Console.ReadLine());
+// Console.Write("Введите обьем \n: ");
+// double colV = Convert.ToDouble(Console.ReadLine());
+// double plot = colM/colV;
+// Console.Write($"Плотность равна : {Math.Round(plot, 3)}");
+
+
+// S2.9. Известны количество жителей в государстве и площадь его территории. Определить плотность населения в этом государстве.
+
+
+// Console.Write("Введите количество жителей страны \n: ");
+// double colP = Convert.ToDouble(Console.ReadLine());
+// Console.Write("Введите площадь страны \n: ");
+// double colS = Convert.ToDouble(Console.ReadLine());
+// double plotnost = colP/colS;
+// Console.Write($"Плотность населения равна : {Math.Round(plotnost, 2)} на километр квадратный ");
+
+
+// S2.11. Даны катеты прямоугольного треугольника. Найти его гипотенузу.
+
+// Console.Write("Введите катет 1  \n: ");
+// double cat1 = Convert.ToDouble(Console.ReadLine());
+// Console.Write("Введите катет 2 \n: ");
+// double cat2 = Convert.ToDouble(Console.ReadLine());
+// double gepa = Math.Sqrt(cat1 * cat1 + cat2 * cat2);
+// Console.WriteLine($"гипатенуза  равна \n: {Math.Round(gepa, 2)} ");
+
+//обмен значениями из двух переменных 
+// int a = 555;
+// int b = 777;
+// int col = a;
+
+// col = a;
+// a = b;
+// b = col;
+// Console.WriteLine($"значение а = {a}, значение б = {b}");
+
+// 3,2 обмен трех переменных значениями
+
+// int a =5;
+// int b = 8;
+// int c = 10;
+// int col = c;
+
+// c = a;
+// a = b;
+// b = col;
+// Console.WriteLine($"a = {a} ; b=  {b} ; c=  {c} ;");
+
+
+//Присвоение значений 
+// int a = 5;   //10             //10
+// int b = 8;   //5             //5
+// int c = 10;   //8          //8
+// int col = b; //8
+
+// b = a; //■
+// a = c; 
+// c = col;//■
+// Console.WriteLine($"a = {a} ; b=  {b} ; c=  {c} ;");
+
+
+
+// S2.10. Составить программу решения линейного уравнения ax+b=0 (a ≠ 0).
